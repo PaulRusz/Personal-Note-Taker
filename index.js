@@ -46,11 +46,24 @@ app.post('/api/notes', (req, res) => {
     const newNote = req.body
     newNote.id = uuidv4() // here is where a unique ID is generated
 
+    // Adds the new note to the notes array
     notes.push(newNote)
 
-    console.log('Notes Array:', notes); // Log the notes array
+    // Writes the updated notes array to the db.json file
+    fs.writeFile(dbFilePath, JSON.stringify(notes), (err) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: 'Failed to save note' });
+        }
 
-    res.json(newNote)
+        console.log('Note saved successfully');
+        // Send the response only after the file is written successfully
+        res.json(newNote);
+    });
+
+    //console.log('Notes Array:', notes); // Log the notes array
+
+    //res.json(newNote)
 })
 
 // HTML ROUTES
