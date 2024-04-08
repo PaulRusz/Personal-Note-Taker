@@ -15,6 +15,7 @@ app.use(express.static('./public'))
 app.use(express.json())
 
 
+
 // API ROUTES
 // sets up a route that handles GET requests to /api/notes
 //
