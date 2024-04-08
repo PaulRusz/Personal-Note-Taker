@@ -19,10 +19,11 @@ https://pauls-note-taker-727545b9b132.herokuapp.com/notes
 
 ## Usage
 The Note-Taker can be loaded via any web browser.  The usage instructions are as follows:
-    1.  Once the webpage is loaded the user simply needs to fill out the 'Note Title' box and the 'Note Text' box.  
-    2.  After filling out those two boxes the user can save the notes using the 'Save Note' button at the top right of the screen.
-    3.  Once the note is saved the user will see the note populate on the left side of the screen in a list.  
-    4.  On the left side of the screen the user can access all their notes.
+    1.  Upon loading the webpage the user will bew required to click the blue 'Get Started' button in the center of the page.
+    2.  Once the webpage is loaded the user simply needs to fill out the 'Note Title' box and the 'Note Text' box.  
+    3.  After filling out those two boxes the user can save the notes using the 'Save Note' button at the top right of the screen.
+    4.  Once the note is saved the user will see the note populate on the left side of the screen in a list.  
+    5.  On the left side of the screen the user can access all their notes.
 
 ## Credits
 
