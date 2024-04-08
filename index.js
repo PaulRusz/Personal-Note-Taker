@@ -38,6 +38,7 @@ app.get('/api/notes', (req, res) => {
 })
 
 
+
 // generates a unique ID for the new note that has been submitted via a post /api/notes request
 let notes = []
 
