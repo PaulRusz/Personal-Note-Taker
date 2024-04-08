@@ -13,7 +13,7 @@ The Personal Note-Taker is a web based application that can be used to keep note
 
 ## Installation
 
-No installation required on your end!  All the user needs to do is visit the website page located at:
+No installation required on your end!  All the user needs to do is visit the website page located at:  
 https://pauls-note-taker-727545b9b132.herokuapp.com/notes
 
 
@@ -33,7 +33,7 @@ N/A
 Repo:  
 https://github.com/PaulRusz/Note-Taker
 
-Website:
+Website:  
 https://pauls-note-taker-727545b9b132.herokuapp.com/notes
 
 
