@@ -37,8 +37,7 @@ app.get('/api/notes', (req, res) => {
     })
 })
 
-//
-// complete function! - 
+
 // generates a unique ID for the new note that has been submitted via a post /api/notes request
 let notes = []
 
@@ -60,10 +59,6 @@ app.post('/api/notes', (req, res) => {
         // Send the response only after the file is written successfully
         res.json(newNote);
     });
-
-    //console.log('Notes Array:', notes); // Log the notes array
-
-    //res.json(newNote)
 })
 
 // HTML ROUTES
