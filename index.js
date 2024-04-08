@@ -77,7 +77,7 @@ app.get('*', (req, res) => {
 
 
 // sets up server to listen on a specific port
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`)
 })
 
